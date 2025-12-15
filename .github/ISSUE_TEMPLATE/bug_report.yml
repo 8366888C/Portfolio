@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug in the application
-title: "fix: "
+title: "bug: "
 labels: ["bug"]
 body:
   - type: textarea
