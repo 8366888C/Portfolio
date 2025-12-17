@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 
 // !description
@@ -10,7 +11,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <div className="flex items-center gap-3">
+        <h1>Hello</h1>
+        <Button variant="outline" size="icon-sm">
+          +
+        </Button>
+      </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         recusandae iusto excepturi! Consequuntur deleniti, saepe ipsum, eos
