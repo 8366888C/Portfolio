@@ -1,4 +1,3 @@
-import ThemeToggle from "@/components/theme-toggle";
 import { Metadata } from "next";
 
 // !description
@@ -11,10 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
-      <div className="flex items-center gap-3">
-        <h1>Hello</h1>
-        <ThemeToggle />
-      </div>
+      <h1>Hello</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         recusandae iusto excepturi! Consequuntur deleniti, saepe ipsum, eos
