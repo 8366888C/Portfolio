@@ -10,7 +10,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground overflow-y-scroll scroll-smooth font-mono antialiased select-none;
+    @apply bg-background text-foreground overflow-y-scroll scroll-smooth font-mono antialiased;
   }
   main {
     @apply bg-background selection:bg-accent-foreground selection:text-accent relative z-1 min-h-screen;
@@ -31,9 +31,17 @@
   }
 
   /* ?utility */
-  .transition {
+  .animation {
     @apply transition-all duration-150 ease-in-out;
   }
+  .paragraph {
+    @apply space-y-6 text-lg leading-relaxed opacity-90;
+  }
+  .link {
+    @apply text-accent-foreground active:text-foreground decoration-dashed underline-offset-3 hover:underline hover:underline-offset-6;
+  }
+
+  /* ?typography */
 }
 
 @theme inline {
@@ -119,7 +127,7 @@
     background-color: var(--color-foreground);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--color-accent);
+    background-color: var(--color-accent-foreground);
   }
 }
 

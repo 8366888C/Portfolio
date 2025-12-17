@@ -1,3 +1,4 @@
+import About from "@/components/Introduction";
 import { Metadata } from "next";
 
 // !description
@@ -11,30 +12,7 @@ export default function Home() {
   return (
     <div>
       <h1>Hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        recusandae iusto excepturi! Consequuntur deleniti, saepe ipsum, eos
-        eligendi quo minus culpa cum officiis dolor eaque blanditiis. Facilis
-        obcaecati eius distinctio.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        recusandae iusto excepturi! Consequuntur deleniti, saepe ipsum, eos
-        eligendi quo minus culpa cum officiis dolor eaque blanditiis. Facilis
-        obcaecati eius distinctio.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        recusandae iusto excepturi! Consequuntur deleniti, saepe ipsum, eos
-        eligendi quo minus culpa cum officiis dolor eaque blanditiis. Facilis
-        obcaecati eius distinctio.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        recusandae iusto excepturi! Consequuntur deleniti, saepe ipsum, eos
-        eligendi quo minus culpa cum officiis dolor eaque blanditiis. Facilis
-        obcaecati eius distinctio.
-      </p>
+      <About />
     </div>
   );
 }
