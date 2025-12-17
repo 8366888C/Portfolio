@@ -12,21 +12,26 @@
     @apply bg-background text-foreground;
   }
 
-  /* !custom classes */
+  /* ?margins */
   .body-margin {
     @apply mx-auto max-w-4xl;
   }
   .main-margin {
-    @apply px-6 py-3 ring-1 ring-white;
+    @apply ring-foreground px-6 py-3 ring-1;
+  }
+
+  /* ?utility */
+  .transition {
+    @apply transition-all duration-150 ease-in-out;
   }
 }
 
 @theme inline {
-  /* !fonts */
+  /* ?fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  /* !colors */
+  /* ?colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-sidebar-ring: var(--sidebar-ring);

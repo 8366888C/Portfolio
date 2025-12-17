@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import ThemeToggle from "@/components/theme-toggle";
 import { Metadata } from "next";
 
 // !description
@@ -13,9 +13,7 @@ export default function Home() {
     <div>
       <div className="flex items-center gap-3">
         <h1>Hello</h1>
-        <Button variant="outline" size="icon-sm">
-          +
-        </Button>
+        <ThemeToggle />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus

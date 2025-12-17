@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import ThemeProvider from "@/components/theme-provider";
 
 // !fonts
 const geistSans = Geist({
@@ -22,7 +23,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} body-margin`}
       >
-        <main className="main-margin">{children}</main>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <main className="main-margin">{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );
