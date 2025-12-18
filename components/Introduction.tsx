@@ -10,15 +10,6 @@ export default function Introduction() {
   return (
     <>
       <div className="flex cursor-default gap-3 select-none">
-        {/* <Badge variant="secondary">
-          <span className="opacity-80">Unreal</span>
-        </Badge>
-        <Badge variant="secondary">
-          <span className="opacity-80">Web</span>
-        </Badge>
-        <Badge variant="secondary">
-          <span className="opacity-80">Data</span>
-        </Badge> */}
         <Badge variant="secondary">
           <span className="opacity-80">Software Developer</span>
         </Badge>
@@ -27,7 +18,7 @@ export default function Introduction() {
       <h1 className="blog-title">Subhashis Hansda</h1>
 
       <div className="flex flex-col gap-1 md:flex-row md:gap-8">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 select-none">
           <Mail className="size-4 opacity-80" />
           <Link
             href="mailto:subhashishansda8@gmail.com"
@@ -36,7 +27,7 @@ export default function Introduction() {
             subhashishansda8
           </Link>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 select-none">
           <MapPin className="size-4 opacity-80" />
           <Link
             href="https://www.google.com/maps/place/Ahmedabad"
