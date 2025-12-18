@@ -30,6 +30,20 @@
     @apply px-3 pt-16 pb-2;
   }
 
+  /* ?headings */
+  .heading {
+    @apply py-6 text-5xl font-semibold select-none;
+  }
+  .sub-heading {
+    @apply py-6 text-5xl select-none;
+  }
+  .section-heading {
+    @apply pb-6 text-center text-3xl font-light tracking-widest select-none;
+  }
+  .blog-title {
+    @apply py-3 text-5xl font-semibold select-none;
+  }
+
   /* ?utility */
   .animation {
     @apply transition-all duration-150 ease-in-out;
@@ -37,11 +51,18 @@
   .paragraph {
     @apply space-y-6 text-lg leading-relaxed opacity-90;
   }
+  .paragraph-short {
+    @apply space-y-3 text-base leading-relaxed opacity-80;
+  }
   .link {
     @apply text-accent-foreground active:text-foreground decoration-dashed underline-offset-3 hover:underline hover:underline-offset-6;
   }
-
-  /* ?typography */
+  .socials {
+    @apply hover:stroke-accent-foreground size-8;
+  }
+  hr {
+    @apply border-ring m-13;
+  }
 }
 
 @theme inline {
@@ -118,7 +139,7 @@
 /* !SCROLLBAR STYLING */
 @layer base {
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
   }
   ::-webkit-scrollbar-track {
     background-color: transparent;

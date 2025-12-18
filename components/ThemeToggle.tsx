@@ -40,8 +40,8 @@ export default function ThemeToggle() {
 
   return (
     <Button variant="ghost" size="icon-sm" onClick={handleClick}>
-      <Sun className="size-4 scale-100 transition dark:scale-0" />
-      <Moon className="absolute size-4 scale-0 transition dark:scale-100" />
+      <Sun className="size-4 scale-0 transition dark:scale-100" />
+      <Moon className="absolute size-4 scale-100 transition dark:scale-0" />
     </Button>
   );
 }

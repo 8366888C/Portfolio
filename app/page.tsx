@@ -1,4 +1,4 @@
-import About from "@/components/Introduction";
+import Introduction from "@/components/Introduction";
 import { Metadata } from "next";
 
 // !description
@@ -10,9 +10,18 @@ export const metadata: Metadata = {
 // !main function
 export default function Home() {
   return (
-    <div>
-      <h1>Hello</h1>
-      <About />
-    </div>
+    <>
+      <section>
+        <Introduction />
+      </section>
+      <hr />
+      <section>
+        <h2 className="section-heading">P R O J E C T S</h2>
+      </section>
+      <hr />
+      <section>
+        <h2 className="section-heading">B L O G S</h2>
+      </section>
+    </>
   );
 }
