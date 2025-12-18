@@ -23,7 +23,9 @@ export default function Introduction() {
           <span className="opacity-80">Software Developer</span>
         </Badge>
       </div>
+
       <h1 className="blog-title">Subhashis Hansda</h1>
+
       <div className="flex flex-col gap-1 md:flex-row md:gap-8">
         <div className="flex items-center gap-3">
           <Mail className="size-4 opacity-80" />
@@ -44,12 +46,14 @@ export default function Introduction() {
           </Link>
         </div>
       </div>
+
       <ScrambledText radius={60} className="paragraph my-6">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id illo
         inventore, perspiciatis esse incidunt exercitationem facilis vel rerum
         veniam iusto fuga placeat. Incidunt illo voluptas sequi doloremque,
         voluptatum dignissimos eos!
       </ScrambledText>
+
       <Button variant="default" size="sm" asChild>
         <Link href="/resume">Resume</Link>
       </Button>
