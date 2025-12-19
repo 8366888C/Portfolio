@@ -2,7 +2,7 @@
 
 import ScrambledText from "./animation/ScrambledText";
 import { Mail, MapPin } from "lucide-react";
-import { Badge } from "./ui/badge";
+// import { Badge } from "./ui/badge";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
@@ -10,9 +10,9 @@ export default function Introduction() {
   return (
     <>
       <div className="flex cursor-default gap-3 select-none">
-        <Badge variant="secondary">
+        {/* <Badge variant="secondary">
           <span className="opacity-80">Software Developer</span>
-        </Badge>
+        </Badge> */}
       </div>
 
       <h1 className="blog-title">Subhashis Hansda</h1>

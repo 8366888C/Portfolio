@@ -1,4 +1,5 @@
 import Introduction from "@/components/Introduction";
+import BlogCard from "@/components/BlogCard";
 import { Metadata } from "next";
 
 // !description
@@ -17,10 +18,17 @@ export default function Home() {
       <hr />
       <section>
         <h2 className="section-heading">P R O J E C T S</h2>
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2"></div>
       </section>
       <hr />
       <section>
         <h2 className="section-heading">B L O G S</h2>
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+        </div>
       </section>
     </>
   );
