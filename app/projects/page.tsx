@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <>
-      <h1 className="blog-title">Projects</h1>
+      <h1 className="heading">Projects</h1>
     </>
   );
 }

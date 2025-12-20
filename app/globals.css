@@ -10,10 +10,10 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground overflow-y-scroll scroll-smooth font-mono antialiased;
+    @apply bg-accent text-accent-foreground overflow-y-scroll scroll-smooth font-mono antialiased;
   }
   main {
-    @apply bg-background selection:bg-accent-foreground selection:text-accent relative z-1 min-h-screen;
+    @apply bg-accent selection:bg-brand selection:text-brand-foreground relative z-1 min-h-screen;
   }
 
   /* ?margins */
@@ -32,16 +32,10 @@
 
   /* ?headings */
   .heading {
-    @apply py-6 text-5xl font-semibold select-none;
-  }
-  .sub-heading {
-    @apply py-6 text-5xl select-none;
+    @apply py-3 pt-6 text-5xl font-semibold select-none;
   }
   .section-heading {
     @apply pb-13 text-center text-3xl font-light tracking-widest opacity-80 select-none;
-  }
-  .blog-title {
-    @apply py-3 text-5xl font-semibold select-none;
   }
 
   /* ?utility */

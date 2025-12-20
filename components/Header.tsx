@@ -18,7 +18,7 @@ export default function Header() {
   const pathSegments = pathname.split("/").filter((item) => item !== "");
 
   return (
-    <header className="header-margin bg-background sticky top-0 z-2 backdrop-blur-3xl select-none">
+    <header className="header-margin bg-accent sticky top-0 z-2 backdrop-blur-3xl select-none">
       <div className="flex items-center justify-between">
         <Breadcrumb>
           <BreadcrumbList>

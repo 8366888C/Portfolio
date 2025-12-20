@@ -12,7 +12,7 @@ interface CardProps {
 }
 
 export default function BlogCard({
-  url = "/url",
+  url = "/blogs/{title}",
   title = "title",
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique.",
   date = "5 Jan, 2000",

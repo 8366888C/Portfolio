@@ -15,7 +15,7 @@ export default function Introduction() {
         </Badge> */}
       </div>
 
-      <h1 className="blog-title">Subhashis Hansda</h1>
+      <h1 className="heading">Subhashis Hansda</h1>
 
       <div className="flex flex-col gap-1 md:flex-row md:gap-8">
         <div className="flex items-center gap-3 select-none">
